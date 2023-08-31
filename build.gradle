@@ -20,7 +20,7 @@ dependencies {
     //to change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings 'com.github.jellejurre:yarn:1.17.1-pre1-SNAPSHOT'
-    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "com.github.fabricmc:fabric-loader:${project.loader_version}"
     testImplementation(platform('org.junit:junit-bom:5.7.2'))
     testImplementation('org.junit.jupiter:junit-jupiter')
     // PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
